@@ -709,7 +709,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "porkchop": "2025-03-01 16:20:11 +0000"
+      "porkchop": "2025-03-01 16:20:11 +0000",
+      "golden_carrot": "2025-03-01 16:26:55 +0000"
     },
     "done": false
   },
@@ -782,6 +783,30 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2025-03-01 16:25:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-03-01 16:27:52 +0000"
+    },
+    "done": true
+  },
+  "ihfr:batheinthevomit": {
+    "criteria": {
+      "batheinthevomit_0": "2025-03-01 16:30:17 +0000"
+    },
+    "done": true
+  },
+  "ihfr:bug_fixer": {
+    "criteria": {
+      "bug_fixer_0": "2025-03-01 16:28:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-03-01 16:29:30 +0000"
     },
     "done": true
   },
