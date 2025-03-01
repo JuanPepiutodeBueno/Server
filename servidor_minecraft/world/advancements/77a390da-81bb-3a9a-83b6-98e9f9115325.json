@@ -1,15 +1,23 @@
 {
-  "minecraft:recipes/decorations/ladder": {
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "has_stick": "2025-03-01 16:06:42 +0000"
+      "unlock_right_away": "2025-03-01 16:04:57 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/mangrove_boat": {
+  "ihfr:i_hate_flesh": {
     "criteria": {
-      "in_water": "2025-03-01 16:10:09 +0000"
+      "i_hate_flesh_0": "2025-03-01 16:04:57 +0000"
     },
     "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mangrove_swamp": "2025-03-01 16:09:27 +0000",
+      "minecraft:desert": "2025-03-01 16:04:59 +0000",
+      "minecraft:jungle": "2025-03-01 16:06:17 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/jungle_wood": {
     "criteria": {
@@ -23,39 +31,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_stick": "2025-03-01 16:06:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/jungle_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-03-01 16:06:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_hoe": {
-    "criteria": {
-      "has_stick": "2025-03-01 16:06:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
       "has_log": "2025-03-01 16:06:24 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_pickaxe": {
+  "minecraft:recipes/redstone/jungle_trapdoor": {
     "criteria": {
-      "has_stick": "2025-03-01 16:06:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_axe": {
-    "criteria": {
-      "has_stick": "2025-03-01 16:06:42 +0000"
+      "has_planks": "2025-03-01 16:06:36 +0000"
     },
     "done": true
   },
@@ -71,33 +55,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2025-03-01 16:04:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_shovel": {
-    "criteria": {
-      "has_stick": "2025-03-01 16:06:42 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/stick": {
     "criteria": {
       "has_planks": "2025-03-01 16:06:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2025-03-01 16:10:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2025-03-01 16:10:09 +0000"
     },
     "done": true
   },
@@ -113,19 +73,107 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2025-03-01 16:06:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2025-03-01 16:06:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2025-03-01 16:06:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2025-03-01 16:06:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-03-01 16:06:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2025-03-01 16:06:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2025-03-01 16:06:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2025-03-01 16:06:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-03-01 16:06:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2025-03-01 16:06:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2025-03-01 16:06:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2025-03-01 16:06:42 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:story/root": {
     "criteria": {
-      "minecraft:mangrove_swamp": "2025-03-01 16:09:27 +0000",
-      "minecraft:desert": "2025-03-01 16:04:59 +0000",
-      "minecraft:jungle": "2025-03-01 16:06:17 +0000"
+      "crafting_table": "2025-03-01 16:06:42 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "in_your_world:te_veo": {
+    "criteria": {
+      "te_veo": "2025-03-01 16:07:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-03-01 16:10:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-03-01 16:10:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-03-01 16:10:09 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
@@ -133,21 +181,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/barrel": {
-    "criteria": {
-      "has_planks": "2025-03-01 16:06:36 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2025-03-01 16:10:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/jungle_button": {
-    "criteria": {
-      "has_planks": "2025-03-01 16:06:36 +0000"
     },
     "done": true
   },
@@ -163,33 +199,9 @@
     },
     "done": true
   },
-  "ihfr:i_hate_flesh": {
-    "criteria": {
-      "i_hate_flesh_0": "2025-03-01 16:04:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2025-03-01 16:06:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/jungle_slab": {
-    "criteria": {
-      "has_planks": "2025-03-01 16:06:36 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2025-03-01 16:10:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/jungle_stairs": {
-    "criteria": {
-      "has_planks": "2025-03-01 16:06:36 +0000"
     },
     "done": true
   },
@@ -199,15 +211,73 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/jungle_fence_gate": {
+  "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "has_planks": "2025-03-01 16:06:36 +0000"
+      "has_lots_of_items": "2025-03-01 16:15:44 +0000"
     },
     "done": true
   },
-  "in_your_world:te_veo": {
+  "minecraft:adventure/root": {
     "criteria": {
-      "te_veo": "2025-03-01 16:07:57 +0000"
+      "killed_something": "2025-03-01 16:16:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2025-03-01 16:23:27 +0000",
+      "minecraft:spider": "2025-03-01 16:21:28 +0000",
+      "minecraft:creeper": "2025-03-01 16:21:29 +0000",
+      "minecraft:husk": "2025-03-01 16:16:40 +0000",
+      "minecraft:zombie": "2025-03-01 16:16:50 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:husk": "2025-03-01 16:16:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-03-01 16:18:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-03-01 16:18:47 +0000"
+    },
+    "done": true
+  },
+  "in_your_world:behind": {
+    "criteria": {
+      "behind": "2025-03-01 16:19:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "golden_carrot": "2025-03-01 16:20:20 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-03-01 16:20:20 +0000"
+    },
+    "done": true
+  },
+  "ihfr:oh_barnacles": {
+    "criteria": {
+      "oh_barnacles_0": "2025-03-01 16:23:20 +0000"
+    },
+    "done": true
+  },
+  "ihfr:rip_n_tear": {
+    "criteria": {
+      "rip_n_tear_0": "2025-03-01 16:23:20 +0000"
     },
     "done": true
   },
